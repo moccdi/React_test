@@ -1,0 +1,47 @@
+.todolist{
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 30px;
+  border: grey solid 1px;
+
+  .task{
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    .delete{
+      float: right;
+      color: red;
+      display: none;
+    }
+  }
+  .task:hover{
+    background: lightgrey;
+
+  }
+  .task:hover .delete{
+    display: inline-block;
+  }
+  .done{
+    text-decoration: line-through;
+  }
+  .todolist-footer {
+    display: flex;
+    margin-top: 10px;
+    div{
+      padding: 3px;
+    }
+    .buttons{
+      .selected{
+        border: 2px solid black;
+      }
+    }
+
+  }
+}
+.img_todolist{
+  display: block;
+  width: 1000px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,9 @@
+.calculator_class {
+  width: 300px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+.calculator_class div {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=CalculatorV2.css.map */
